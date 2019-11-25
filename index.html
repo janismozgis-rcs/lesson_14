@@ -5,44 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        .completed {
-            text-decoration: line-through;
-        }
-        li {
-            cursor: pointer;
-        }
-    </style>
+   
 </head>
 <body>
-    <div>
-        <div>
-            <label for="name">Name:</label>
-            <input id="name">
-        </div>
-        <div>
-            <button id="send-btn" onclick="setName()">Send</button>
-        </div>
-        <p>
-            Your name is: <span id="name-output"></span>
-        </p>
-    </div>
+    <button onclick="sayHello('Billy')">Button 1</button>
+    <button id="btn2">Button 2</button>
+
+    <button onclick="showAlert('Messge')">Amazing button</button>
+    <button id="btn4">Amazing button 2</button>
 
 
-    <hr>
+    <p>Foo</p>
+    <p>Foo</p>
+    <p>Foo</p>
+    <p>Foo</p>
+    <p>Foo</p>
+    <p>Foo</p>
+    <p>Foo</p>
+    <button id="btn5">Click</button>
 
-    <ul id="task-list">
-        <li>Buy milk</li>
-        <li>Learn JS</li>
-        <li class="completed">Stay awesome</li>
-    </ul>
 
     <div>
-        <input type="text" id="task-name">
-        <button id="add-task">Add task</button>
+        <input type="text" name="" id="palindrome-input">
+        <button id="check-palindrome">Check</button>
+        <p id="palindrome-result"></p>
     </div>
-
+    <div>
+        <input type="text" name="" id="anagram-input-1">
+        <input type="text" name="" id="anagram-input-2">
+        <button id="check-anagram">Check</button>
+        <p id="anagram-result"></p>
+    </div>
 
     <script src="script.js"></script>
+
+
 </body>
 </html>
